@@ -28,13 +28,11 @@
     height:100vh;
   }
   .player{
-    /* border-radius: 20px; */
     width: 500px;
     height: 350px;
     position: absolute;
     top:calc(50% - 175px);
     left:calc(50% - 250px);
-    /* box-shadow:6px 6px 15px rgba(51,51,51,0.5); */
     overflow:hidden;
     background:black;
   }
@@ -104,7 +102,6 @@
     justify-content:center;
   }
   .player .buttons .button{
-    /* border: 1px solid #ddd; */
     border-radius: 50%;
     text-align:center;
     margin:7px;
@@ -128,6 +125,15 @@
     font-size: 35px;
   }
   .player .buttons .button-small:hover, .player .buttons .button-medium:hover, .player .buttons .button-large:hover{
-    /* background: #5453af; */
     color: #fff;
   }
+
+
+  #time {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2em;
+  }
+  
