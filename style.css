@@ -12,8 +12,8 @@
     user-select:none;
     padding:0;
     margin:0;
-    background: rgb(149,1,193);
-    background: linear-gradient(159deg, rgb(98 42 115) 0%, rgba(227,129,102,1) 100%);
+    background: black;
+    background: black;
   }
   #overlay{
     position:absolute;
@@ -28,15 +28,15 @@
     height:100vh;
   }
   .player{
-    border-radius: 20px;
+    /* border-radius: 20px; */
     width: 500px;
     height: 350px;
     position: absolute;
     top:calc(50% - 175px);
     left:calc(50% - 250px);
-    box-shadow:6px 6px 15px rgba(51,51,51,0.5);
+    /* box-shadow:6px 6px 15px rgba(51,51,51,0.5); */
     overflow:hidden;
-    background:#fff;
+    background:black;
   }
   .player #music-info{
     padding: 15px;
@@ -104,11 +104,11 @@
     justify-content:center;
   }
   .player .buttons .button{
-    border: 1px solid #ddd;
+    /* border: 1px solid #ddd; */
     border-radius: 50%;
     text-align:center;
     margin:7px;
-    color: #333;
+    color: white;
   }
   .player .buttons .button-small{
     width: var(--small);
@@ -128,6 +128,6 @@
     font-size: 35px;
   }
   .player .buttons .button-small:hover, .player .buttons .button-medium:hover, .player .buttons .button-large:hover{
-    background: #5453af;
+    /* background: #5453af; */
     color: #fff;
   }
