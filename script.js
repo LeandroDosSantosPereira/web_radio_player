@@ -92,7 +92,7 @@ var musicas = [
 			title: "Rádio Miragem",
 			album: "104.9 FM",
 			author: "Nova Andradina / MS - Brasil",
-			source: "https://webradios.net/api/proxy-stream.php?ip=sv12.hdradios.net&port=7536&mount=/stream",
+			source: "https://webradios.net/api/proxy-stream.php?ip=sv12.hdradios.net&port=7536&mount=/stream&1702673605824",
 			type: "audio/mpeg"
 		},
 
@@ -177,10 +177,18 @@ var musicas = [
 		},
 
 		{
+			title: "Rádio Grande FM",
+			album: "92.1 FM",
+			author: "Dourados / MS - Brasil",
+			source: "https://9867.brasilstream.com.br/stream?",
+			type: "audio/mpeg"
+		},
+
+		{
 			title: "Rádio Ivaí",
 			album: "101.5 FM",
 			author: "Santa Isabel do Ivaí / PR - Brasil",
-			source: "http://streaming.omegasistemas.com.br:8377/stream",
+			source: "http://controleflash.omegasistemas.net:8377/;stream.mp3",
 			type: "audio/mpeg"
 		},
 
@@ -239,6 +247,14 @@ var musicas = [
 			source: "https://27603.live.streamtheworld.com/CBN_RJAAC.aac?dist=radioscombr",
 			type: "audio/mpeg"
 		},
+
+		{
+			title: "Rádio Itatiaia",
+			album: "610 AM 95.7 FM",
+			author: "Belo Horizonte / MG - Brasil",
+			source: "http://8903.brasilstream.com.br:8903/stream?1702674031003",
+			type: "audio/mpeg"
+		}
 
   ];
   
