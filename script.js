@@ -180,7 +180,7 @@ var musicas = [
 			title: "Rádio Ivaí",
 			album: "101.5 FM",
 			author: "Santa Isabel do Ivaí / PR - Brasil",
-			source: "http://streaming.omegasistemas.com.br:8377/stream;",
+			source: "http://streaming.omegasistemas.com.br:8377/stream",
 			type: "audio/mpeg"
 		},
 
