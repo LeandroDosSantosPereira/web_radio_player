@@ -82,3 +82,16 @@ var musicas = [
   
  
   setInterval(updateTime, 1000);
+
+  // Função para verificar e forçar a orientação paisagem
+  function forceLandscape() {
+    if (window.orientation !== 90 && window.orientation !== -90) {
+      alert("Gire o dispositivo para a orientação paisagem.");
+    }
+  }
+
+  // Executa a função ao carregar a página
+  forceLandscape();
+
+  // Adiciona um ouvinte de evento para verificar a orientação quando o dispositivo é girado
+  window.addEventListener("orientationchange", forceLandscape);
