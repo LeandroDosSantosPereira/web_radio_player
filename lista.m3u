@@ -14,8 +14,7 @@ https://stmv1.paineltv.net/redeclonetv/redeclonetv/chunklist_w2046683097.m3u8
 #EXTIMG:https://www.cxtv.com.br/img/Tvs/Logo/webp-l/1d08352f33c92124373d9f3b0fcf2ef8.webp
 https://stmv1.srvif.com/loadingtv/loadingtv/chunklist_w921572973.m3u8
 
-#EXTINF:-1, TV Globo Ao Vivo Online Grátis | Assista no Globoplay
+#EXTINF:-1, Web Tv Cine Ao Vivo Online Grátis | Assista na CXTv
 #EXTGRP:TV Ao Vivo
-#EXTIMG:https://s3.glbimg.com/v1/AUTH_c7def7ff66fe4b13beac0810ffbf780f/secure/now-at-globo-share-d5539fc.jpg
-https://live-as-03-33.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJCUiIsImRvbWFpbiI6ImxpdmUtYXMtMDMtMzMudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzA0MzgxNTIyLCJpYXQiOjE3MDQyOTUxMjIsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiZWE4NDIyY2MtOTc1NS00YzE1LWE5N2EtYjdhZDA5NjJkZjczIiwicGF0aCI6Ii9udS9mKGk9MikvZ2xvYm8tcG9yL3BsYXlsaXN0Lm0zdTgifQ.sqaXvroIvw48KPShKrvN47LUpUcrZzrWbSy1vn0WGtLdIbTfkXaU9_DY6QdkGmqebq-79IXbzH9NbOwjk0Y8AzwQWTH86c73touy2gsChBWUs_UqF6ZRWmLqwn1Gw93XLYTx19wCCHStm7M1iSuQLRpogAamx02ptvj5A22vDiuXsZhAsHWysrAN9h5MXJBh-OC6R-8YATCIsiXBa_aQC4QHAxAIm_ipWE0-LT0KUpHxsD-lcdFNjVoNwogFUIbhzAUwifadsJTCoPbeC9s5YPVqZ-X7MrQV4yhodV30G3ImeCpZdhN4-oAatn5Idj3VDQQV5zdV5mzJY2T1CWTQEg/nu/f(i=2)/globo-por/globo-por-audio_1=96000-video=3442944.m3u8
-
+#EXTIMG:https://www.cxtv.com.br/img/Tvs/Logo/webp-l/0d8ea456a45f1f4837ffb24db7646f8f.webp
+https://stmv1.srvif.com/tvserie/tvserie/chunklist_w1163383747.m3u8
