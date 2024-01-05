@@ -76,3 +76,7 @@ https://stmv1.srvif.com/jetsontv/jetsontv/chunklist_w1904852156.m3u8
 #EXTIMG:https://www.cxtv.com.br/img/Tvs/Logo/webp-l/1e7e289ab5c66e67ad623c5a1bec9f75.webp
 https://video01.kshost.com.br:4443/rogerio7271/rogerio7271/chunklist_w986094709.m3u8
 
+#EXTINF:-1, Tela Viva Tv Ao Vivo Online Grátis | Assista na CXTv
+#EXTGRP:TV Ao Vivo
+#EXTIMG:https://www.cxtv.com.br/img/Tvs/Logo/webp-l/ee32135a0ae4307048d3b24d0891738f.webp
+https://srv4.zcast.com.br/telavivatv/telavivatv/chunklist_w1019766180.m3u8
