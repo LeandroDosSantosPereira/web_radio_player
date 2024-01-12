@@ -75,15 +75,6 @@ https://stmv1.srvif.com/jetsontv/jetsontv/chunklist_w1904852156.m3u8
 #EXTIMG:https://www.cxtv.com.br/img/Tvs/Logo/webp-l/ee32135a0ae4307048d3b24d0891738f.webp
 https://srv4.zcast.com.br/telavivatv/telavivatv/chunklist_w1019766180.m3u8
 
-#EXTINF:-1, Tooncast
-#EXTGRP:TV Ao Vivo
-#EXTIMG:https://supertvaovivo.tv/wp-content/uploads/2021/08/TOONCAST.jpg
-https://s.m3u9.top/a2/hls1/tooncast/__index.m3u8?mu3zAQc9HC3GbwJq=8rGki6dPYSrMK_vcwZEGig&3U1G7qaTxrPbalZnEx=1705059550
-
-#EXTINF:-1, Rede Brasil de Televisão
-#EXTGRP:TV Ao Vivo
-https://5cf4a2c2512a2.streamlock.net/rbtv/rbtv/chunklist_w1783932026.m3u8
-
 
 #EXTINF:-1, Tv Nova Play
 #EXTGRP:TV Ao Vivo
