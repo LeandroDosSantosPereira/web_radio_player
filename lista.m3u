@@ -80,3 +80,38 @@ https://srv4.zcast.com.br/telavivatv/telavivatv/chunklist_w1019766180.m3u8
 #EXTIMG:https://supertvaovivo.tv/wp-content/uploads/2021/08/TOONCAST.jpg
 https://s.m3u9.top/a2/hls1/tooncast/__index.m3u8?mu3zAQc9HC3GbwJq=8rGki6dPYSrMK_vcwZEGig&3U1G7qaTxrPbalZnEx=1705059550
 
+#EXTINF:-1, Rede Brasil de Televisão
+#EXTGRP:TV Ao Vivo
+https://5cf4a2c2512a2.streamlock.net/rbtv/rbtv/chunklist_w1783932026.m3u8
+
+
+#EXTINF:-1, Tv Nova Play
+#EXTGRP:TV Ao Vivo
+#EXTIMG:https://www.cxtv.com.br/img/Tvs/Logo/webp-l/330749dcc61ffa6816423d9d3452808e.webp
+https://srv4.zcast.com.br/tvnovaplay/tvnovaplay/chunklist_w1138842657.m3u8
+
+#EXTINF:-1, Sony One Emoções
+#EXTGRP:TV Ao Vivo
+https://f9387554367349db8374885adb2d48cf.mediatailor.us-east-1.amazonaws.com/v1/manifest/0fb304b2320b25f067414d481a779b77db81760d/Samsung-br_SonyOneEmocoes/6a9d7066-cf8a-4d7d-bb5f-4c9424c887d0/2.m3u8
+
+#EXTINF:-1, Wording Tv 
+#EXTGRP:TV Ao Vivo
+https://tv02.zas.media:1936/wordingtv/wordingtv/chunklist_w510890122.m3u8
+
+
+#EXTINF:-1, Geekdot
+#EXTGRP:TV Ao Vivo
+https://stream.ichibantv.com:3764/hybrid/play.m3u8
+
+
+#EXTINF:-1, Tv Web Sul Bahia 
+#EXTGRP:TV Ao Vivo
+https://a.cdni.live/radiomultimidia/radiomultimidia/chunklist_w1218479683.m3u8
+
+#EXTINF:-1, Tv Confiego 
+#EXTGRP:TV Ao Vivo
+https://stmv1.voxtvhd.com.br/tvconfiegogospel/tvconfiegogospel/chunklist_w673903125.m3u8
+
+#EXTINF:-1, Tv Kidmais 
+#EXTGRP:TV Ao Vivo
+https://video03.logicahost.com.br/novafamilia01/novafamilia01/chunklist_w1750573759.m3u8
