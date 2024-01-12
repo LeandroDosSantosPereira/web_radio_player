@@ -75,29 +75,9 @@ https://stmv1.srvif.com/jetsontv/jetsontv/chunklist_w1904852156.m3u8
 #EXTIMG:https://www.cxtv.com.br/img/Tvs/Logo/webp-l/ee32135a0ae4307048d3b24d0891738f.webp
 https://srv4.zcast.com.br/telavivatv/telavivatv/chunklist_w1019766180.m3u8
 
-
-#EXTINF:-1, Tv Nova Play
-#EXTGRP:TV Ao Vivo
-#EXTIMG:https://www.cxtv.com.br/img/Tvs/Logo/webp-l/330749dcc61ffa6816423d9d3452808e.webp
-https://srv4.zcast.com.br/tvnovaplay/tvnovaplay/chunklist_w1138842657.m3u8
-
 #EXTINF:-1, Sony One Emoções
 #EXTGRP:TV Ao Vivo
 https://f9387554367349db8374885adb2d48cf.mediatailor.us-east-1.amazonaws.com/v1/manifest/0fb304b2320b25f067414d481a779b77db81760d/Samsung-br_SonyOneEmocoes/6a9d7066-cf8a-4d7d-bb5f-4c9424c887d0/2.m3u8
-
-#EXTINF:-1, Wording Tv 
-#EXTGRP:TV Ao Vivo
-https://tv02.zas.media:1936/wordingtv/wordingtv/chunklist_w510890122.m3u8
-
-
-#EXTINF:-1, Geekdot
-#EXTGRP:TV Ao Vivo
-https://stream.ichibantv.com:3764/hybrid/play.m3u8
-
-
-#EXTINF:-1, Tv Web Sul Bahia 
-#EXTGRP:TV Ao Vivo
-https://a.cdni.live/radiomultimidia/radiomultimidia/chunklist_w1218479683.m3u8
 
 #EXTINF:-1, Tv Confiego 
 #EXTGRP:TV Ao Vivo
