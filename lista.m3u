@@ -82,3 +82,8 @@ https://f9387554367349db8374885adb2d48cf.mediatailor.us-east-1.amazonaws.com/v1/
 #EXTINF:-1, Tv Confiego 
 #EXTGRP:TV Ao Vivo
 https://stmv1.voxtvhd.com.br/tvconfiegogospel/tvconfiegogospel/chunklist_w673903125.m3u8
+
+#EXTINF:-1, Clássicos Tv
+#EXTGRP:TV Ao Vivo
+https://embed-cloudfront.wistia.com/deliveries/0b5b0a6cb9eecea805f4c97a832138235c662224.m3u8
+https://embed-cloudfront.wistia.com/deliveries/b52b482759639abc55129ce3f1ae915e1ae37d50.m3u8
