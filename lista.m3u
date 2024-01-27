@@ -19,11 +19,6 @@ https://stmv1.srvif.com/loadingtv/loadingtv/chunklist_w921572973.m3u8
 #EXTIMG:https://www.cxtv.com.br/img/Tvs/Logo/webp-l/0d8ea456a45f1f4837ffb24db7646f8f.webp
 https://stmv1.srvif.com/tvserie/tvserie/chunklist_w1163383747.m3u8
 
-#EXTINF:-1, Tv Osório News
-#EXTGRP:TV Ao Vivo
-#EXTIMG:https://www.cxtv.com.br/img/Tvs/Logo/webp-l/40d7d18ac1b8c2e6b87ecf0e3410cad7.webp
-https://serv2.videovox.pw/video13154/video13154/chunklist_w966028554.m3u8
-
 
 #EXTINF:-1, Classique Western TV
 #EXTGRP:TV Ao Vivo
@@ -75,9 +70,6 @@ https://stmv1.srvif.com/jetsontv/jetsontv/chunklist_w1904852156.m3u8
 #EXTIMG:https://www.cxtv.com.br/img/Tvs/Logo/webp-l/ee32135a0ae4307048d3b24d0891738f.webp
 https://srv4.zcast.com.br/telavivatv/telavivatv/chunklist_w1019766180.m3u8
 
-#EXTINF:-1, Sony One Emoções
-#EXTGRP:TV Ao Vivo
-https://f9387554367349db8374885adb2d48cf.mediatailor.us-east-1.amazonaws.com/v1/manifest/0fb304b2320b25f067414d481a779b77db81760d/Samsung-br_SonyOneEmocoes/6a9d7066-cf8a-4d7d-bb5f-4c9424c887d0/2.m3u8
 
 #EXTINF:-1, Tv Confiego 
 #EXTGRP:TV Ao Vivo
@@ -86,7 +78,3 @@ https://stmv1.voxtvhd.com.br/tvconfiegogospel/tvconfiegogospel/chunklist_w673903
 #EXTINF:-1, Séries Classic
 #EXTGRP:TV Ao Vivo
 https://srv6.zcast.com.br/adriano8425/adriano8425/chunklist_w843507880.m3u8
-
-#EXTINF:-1, Central TV
-#EXTGRP:TV Ao Vivo
-https://tv02.zas.media:1936/centraltv/centraltv/chunklist_w560792972.m3u8
