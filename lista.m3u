@@ -79,9 +79,11 @@ https://srv6.zcast.com.br/adriano8425/adriano8425/chunklist_w843507880.m3u8
 #EXTGRP:TV Ao Vivo
 https://stmv7.samcast.com.br/eduardo6272/eduardo6272/chunklist_w1962139949.m3u8  
 
-#EXTINF:-1, Seven TV
+#EXTINF:-1, SEVEN TV
 #EXTGRP:TV Ao Vivo
-https://video01.kshost.com.br/aubrey3291/aubrey3291/chunklist_w598305222.m3u8
+#EXTIMG:https://static.wixstatic.com/media/fb563c_d0b9bf1734584c938417824ab8f3a237%7Emv2.png/v1/fit/w_2500,h_1330,al_c/fb563c_d0b9bf1734584c938417824ab8f3a237%7Emv2.png
+https://video01.kshost.com.br/aubrey3291/aubrey3291/chunklist_w2009819218.m3u8
+
 
 #EXTINF:-1, GLN TV
 #EXTGRP:TV Ao Vivo
