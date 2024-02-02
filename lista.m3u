@@ -45,10 +45,6 @@ https://stmv1.srvif.com/retrotv/retrotv/chunklist_w541623048.m3u8
 #EXTIMG:https://www.cxtv.com.br/img/Tvs/Logo/webp-l/87464e2fb467b19b710aadb2da52725d.webp
 https://stmv1.srvif.com/xtremetv/xtremetv/chunklist_w1386067052.m3u8
 
-#EXTINF:-1, Canal 29
-#EXTGRP:TV Ao Vivo
-#EXTIMG:https://www.cxtv.com.br/img/Tvs/Logo/webp-l/dcb3ff84b8f31ddc39ef213b42402f75.webp
-https://stmv1.srvif.com/canal29/canal29/chunklist_w261119203.m3u8
 
 #EXTINF:-1, Tv Aracati HD
 #EXTGRP:TV Ao Vivo
@@ -78,3 +74,8 @@ https://stmv1.voxtvhd.com.br/tvconfiegogospel/tvconfiegogospel/chunklist_w673903
 #EXTINF:-1, Séries Classic
 #EXTGRP:TV Ao Vivo
 https://srv6.zcast.com.br/adriano8425/adriano8425/chunklist_w843507880.m3u8
+
+#EXTINF:-1, TV CEI
+#EXTGRP:TV Ao Vivo
+#EXTIMG:https://www.cxtv.com.br/img/Tvs/Logo/webp-l/937135af086f7ac9580df4a30ffe8a05.webp
+https://stmv7.samcast.com.br/eduardo6272/eduardo6272/chunklist_w1962139949.m3u8
