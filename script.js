@@ -279,7 +279,7 @@ var musicas = [
 	if (audio.paused) {
 	  audio.play();
 	  playButton.innerHTML = '<i class="fa fa-pause"></i>';
-	  musicInfo.style.backgroundImage = 'url("equalizer.gif")';
+	//   musicInfo.style.backgroundImage = 'url("equalizer.gif")';
 	  document.getElementById('time').style.display = 'none';
 	  document.getElementsByClassName('title')[0].style.display = 'block';
 	  document.getElementsByClassName('author')[0].style.display = 'block';

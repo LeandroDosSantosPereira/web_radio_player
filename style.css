@@ -38,7 +38,7 @@
   }
   .player #music-info{
     padding: 15px;
-    background-image:url("equalizer.gif");
+    /* background-image:url("equalizer.gif"); */
     height: 238px;
     background-repeat:no-repeat;
     background-size:100%;
