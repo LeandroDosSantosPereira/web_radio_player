@@ -1,51 +1,69 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="en" >
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>Document</title>
-	<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>CodePen - Music Player | Audio Player 🎵</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.3.1/css/all.css'><link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="style.css">
 	<link rel="manifest" href="manifest.json">
 	<meta name="apple-mobile-web-app-capable" content="yes">
 	<meta name="apple-mobile-web-app-status-bar-style" content="black">
 	<link rel="apple-touch-icon" href="icon.png">
 	<meta name="viewport"
 		content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
 </head>
-
 <body>
+<!-- partial:index.partial.html -->
+<!-- Tracks used in this music/audio player application are free to use. I downloaded them from Soundcloud and NCS websites. I am not the owner of these tracks. -->
 
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-
-	<div id="overlay"></div>
-	<div class="container">
-		<div class="player" id="player">
-			<div id="music-info">
-				<div class="title"></div>
-				<div class="author"></div>
-				<div class="album"></div>
-				<div class="bg"></div>
-
-				<div id="time">
-					11:20
-				</div>
-
-			</div>
-			<div class="timestamp">
-				<div id="bar"></div>
-				<div id="current-time">
-				</div>
-			</div>
-			<div class="buttons">
-				<div class="button button-medium"><i class="fa fa-step-backward" aria-hidden="true"></i></div>
-				<div class="button button-large" id="play"><i class="fa fa-play"></i></div>
-				<div class="button button-medium"><i class="fa fa-step-forward" aria-hidden="true"></i></div>
-			</div>
-		</div>
-	</div>
-	<script src="script.js"></script>
-	<script>
+<div id="app-cover">
+  <div id="bg-artwork"></div>
+  <div id="bg-layer"></div>
+  <div id="player">
+    <div id="player-track">
+      <div id="album-name"></div>
+      <div id="track-name"></div>
+      <div id="track-time">
+        <div id="current-time"></div>
+        <div id="track-length"></div>
+      </div>
+      <div id="s-area">
+        <div id="ins-time"></div>
+        <div id="s-hover"></div>
+        <div id="seek-bar"></div>
+      </div>
+    </div>
+    <div id="player-content">
+      <div id="album-art">
+        <img src="https://pbs.twimg.com/profile_images/995786121/LOGO_transamerica_black_400x400.jpg" class="active" id="_1">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/d/da/Energia_97_logo.png" id="_2">       
+        <div id="buffer-box">Carregando ...</div>
+      </div>
+      <div id="player-controls">
+        <div class="control">
+          <div class="button" id="play-previous">
+            <i class="fas fa-backward"></i>
+          </div>
+        </div>
+        <div class="control">
+          <div class="button" id="play-pause-button">
+            <i class="fas fa-play"></i>
+          </div>
+        </div>
+        <div class="control">
+          <div class="button" id="play-next">
+            <i class="fas fa-forward"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script><script  src="./script.js"></script>
+  <script>
 		if ('serviceWorker' in navigator) {
 			navigator.serviceWorker.register('service-worker.js')
 				.then((registration) => {
@@ -57,5 +75,4 @@
 		}
 	</script>
 </body>
-
 </html>
