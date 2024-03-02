@@ -1,11 +1,5 @@
 ﻿#EXTM3U
 
-#EXTINF:-1, Rede Globo Ao Vivo
-#EXTGRP:TV Ao Vivo
-#EXTIMG:https://supertvaovivo.co/wp-content/uploads/2021/07/REDE-GLOBO-CANAIS.jpg
-https://stream.hlsplus.online/p2p/globosp/chunks.m3u8?nimblesessionid=15101&wmsAuthSign=c2VydmVyX3RpbWU9My8yLzIwMjQgMzoxMjowNyBQTSZoYXNoX3ZhbHVlPVNaSUp6T250Ris2N2hUbU9UaHJCK0E9PSZ2YWxpZG1pbnV0ZXM9MTYw
-
-
 #EXTINF:-1, SBT
 #EXTGRP:TV Ao Vivo
 https://simulcast2.sbtvideosonline.com/v1/manifest/215c0da80606fed29372070168106400a6ca7e1a/SBT-Live-Channel/7d1172fc-ca71-4f58-8236-2e07c234098c/4.m3u8
