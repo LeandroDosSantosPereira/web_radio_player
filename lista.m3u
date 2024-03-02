@@ -1,9 +1,15 @@
 ﻿#EXTM3U
 
-#EXTINF:-1, TV Globo Ao Vivo
+#EXTINF:-1, TV Globo
 #EXTGRP:TV Ao Vivo
 #EXTIMG:https://s3.glbimg.com/v1/AUTH_c7def7ff66fe4b13beac0810ffbf780f/secure/now-at-globo-share-d5539fc.jpg
 https://live-as-02-22.video.globo.com/j/eyJhbGciOiJSUzUxMiIsImtpZCI6IjEiLCJ0eXAiOiJKV1QifQ.eyJjb3VudHJ5X2NvZGUiOiJCUiIsImRvbWFpbiI6ImxpdmUtYXMtMDItMjIudmlkZW8uZ2xvYm8uY29tIiwiZXhwIjoxNzA5NDQyNzU0LCJpYXQiOjE3MDkzNTYzNTQsImlzcyI6InBsYXliYWNrLWFwaS1wcm9kLWdjcCIsIm93bmVyIjoiZWE4NDIyY2MtOTc1NS00YzE1LWE5N2EtYjdhZDA5NjJkZjczIiwicGF0aCI6Ii9udS9mKGk9MikvZ2xvYm8tcG9yL3BsYXlsaXN0Lm0zdTgifQ.Ggt3sDVJ3LsTlPoNjOdV32BHvIg6RPUD18Ol9h7yg1Cko7iZZ1FVwKTFkIDbfrqQ7gpK0AUUstINqKsXIMT4pcqRIxmgPlLKKLYePRJHbFUkLoHJK1Dl3jLYDKd8RAZDsoH5F1G8xkzPCCPdu4J_TsmmiQr1MrYk9UPN3O7sHJXK-SmJhkrlbT9KazJwSV7TyCiPvUG4frqOF2CWgqf9n0uQMnta-ab2oAg3wDoLrZWh3fm8AhcTrrJwc6XDAsulv0raZnsYcN_2kSDmMNb0Cz_PgqQKjgWpNDuiHkjyMO96G4Z3BZVV1puuNDpM8R3igTl08nPXovHgx6V6_rySlA/nu/f(i=2)/globo-por/playlist.m3u8
+
+#EXTINF:-1, SBT
+#EXTGRP:TV Ao Vivo
+#EXTIMG:https://www.sbtvideos.com.br/
+https://simulcast2.sbtvideosonline.com/v1/manifest/215c0da80606fed29372070168106400a6ca7e1a/SBT-Live-Channel/7d1172fc-ca71-4f58-8236-2e07c234098c/4.m3u8
+
 
 #EXTINF:-1, TV Clássicos
 #EXTGRP:TV Ao Vivo
