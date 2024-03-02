@@ -1,23 +1,4 @@
 ﻿#EXTM3U
-
-#EXTINF:-1 tvg-id="" tvg-name="Globo Rio de Janeiro" tvg-logo="http://m3u.win/images/canais/globo.png" group-title="Canais Abertos",Globo RJ
-http://server1.s3rv3r.club:25461/live/GNOl5wd4jd/fv19nHiwPr/117.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-name="Globo São Paulo" tvg-logo="http://m3u.win/images/canais/globo.png" group-title="Canais Abertos",Globo SP
-http://server1.s3rv3r.club:25461/live/GNOl5wd4jd/fv19nHiwPr/115.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-name="SBT" tvg-logo="http://m3u.win/images/canais/sbt.png" group-title="Canais Abertos",SBT
-http://server1.s3rv3r.club:25461/live/GNOl5wd4jd/fv19nHiwPr/48.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-name="Band" tvg-logo="http://m3u.win/images/canais/band.png" group-title="Canais Abertos",Band
-http://server1.s3rv3r.club:25461/live/GNOl5wd4jd/fv19nHiwPr/195.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-name="Record" tvg-logo="http://m3u.win/images/canais/record.png" group-title="Canais Abertos",Record
-http://server1.s3rv3r.club:25461/live/GNOl5wd4jd/fv19nHiwPr/57.m3u8
-
-#EXTINF:-1 tvg-id="" tvg-name="Rede TV" tvg-logo="http://m3u.win/images/canais/rede-tv-hd.png" group-title="Canais Abertos",Rede TV
-http://server1.s3rv3r.club:25461/live/GNOl5wd4jd/fv19nHiwPr/51.m3u8
-
 #EXTINF:-1, TV Clássicos
 #EXTGRP:TV Ao Vivo
 #EXTIMG:https://www.cxtv.com.br/img/Tvs/Logo/webp-l/fe290cfa853a15cfac44bb1bf2e924af.webp
