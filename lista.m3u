@@ -75,6 +75,14 @@ https://srv6.zcast.com.br/adriano8425/adriano8425/chunklist_w843507880.m3u8
 #EXTGRP:TV Ao Vivo
 https://stmv7.samcast.com.br/eduardo6272/eduardo6272/chunklist_w1962139949.m3u8  
 
+#EXTINF:-1, Rede Mais
+#EXTGRP:TV Ao Vivo
+https://stmv1.srvif.com/redemais/redemais/chunklist_w15920272.m3u8
+
+#EXTINF:-1, Fox Kids Network
+#EXTGRP:TV Ao Vivo
+https://stmv1.srvif.com/emlsilva/emlsilva/chunklist_w682749848.m3u8
+
 
 #EXTINF:-1, GLN TV
 #EXTGRP:TV Ao Vivo
