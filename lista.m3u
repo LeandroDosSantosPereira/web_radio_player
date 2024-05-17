@@ -83,11 +83,7 @@ https://stmv1.srvif.com/redemais/redemais/chunklist_w15920272.m3u8
 #EXTGRP:TV Ao Vivo
 https://stmv1.srvif.com/emlsilva/emlsilva/chunklist_w682749848.m3u8
 
-#EXTINF:-1, ISTV
-#EXTGRP:TV Ao Vivo
-https://manifest.googlevideo.com/api/manifest/hls_variant/expire/1715976047/ei/D2NHZpryKrTZ1sQPrM6ykAY/ip/200.124.65.57/id/4c40001a1a15c0e8/source/youtube/requiressl/yes/xpc/EgVo2aDSNQ%3D%3D/playback_host/rr8---sn-pmcg-bg0k.googlevideo.com/mh/si/mm/31%2C26/mn/sn-pmcg-bg0k%2Csn-gpv7yne7/ms/au%2Conr/mv/m/mvi/8/pcm2cms/yes/pl/24/tx/51066116/txs/51066116%2C51066117%2C51066118%2C51066119%2C51066120%2C51066121/hfr/1/demuxed/1/tts_caps/1/maudio/1/initcwndbps/565000/vprv/1/go/1/rqh/5/mt/1715954276/fvip/2/nvgoi/1/short_key/1/ncsapi/1/keepalive/yes/dover/13/itag/0/playlist_type/DVR/sparams/expire%2Cei%2Cip%2Cid%2Csource%2Crequiressl%2Cxpc%2Ctx%2Ctxs%2Chfr%2Cdemuxed%2Ctts_caps%2Cmaudio%2Cvprv%2Cgo%2Crqh%2Citag%2Cplaylist_type/sig/AJfQdSswRgIhAM8lNR2FoM8PoTAiQ04khXaHd6sTevD-8ZBqBzGk6DJpAiEA4czbyViApXWKie3DoO1XbwFHchgaWsKl0IsnisS3ZJ8%3D/lsparams/playback_host%2Cmh%2Cmm%2Cmn%2Cms%2Cmv%2Cmvi%2Cpcm2cms%2Cpl%2Cinitcwndbps/lsig/AHWaYeowRQIhAILkoufPhrHPnSV3fo832xmGXP9Y22fjw9IWf5uiGhKLAiA7a2_gdMKp_lNIJTb0yA0YASailKxaYZHxabB7iiTf4w%3D%3D/file/index.m3u8
 
 #EXTINF:-1, GLN TV
 #EXTGRP:TV Ao Vivo
 https://stmv1.paineltv.net/glnfilmes/glnfilmes/chunklist_w1352271609.m3u8
-
