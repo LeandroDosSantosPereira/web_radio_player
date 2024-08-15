@@ -26,10 +26,6 @@ https://stmv1.srvif.com/tvserie/tvserie/chunklist_w1163383747.m3u8
 #EXTIMG:https://www.cxtv.com.br/img/Tvs/Logo/webp-l/db24d44b23d48de613d70881b8f1d013.webp
 https://stmv1.srvif.com/classiquew/classiquew/chunklist_w1767124628.m3u8
 
-#EXTINF:-1, Tv Cidade Alagoinha
-#EXTGRP:TV Ao Vivo
-#EXTIMG:https://www.cxtv.com.br/img/Tvs/Logo/webp-l/ff33415434b73a0e1c62a152823692eb.webp
-https://video04.logicahost.com.br/tvcidade/tvcidade/chunklist_w2127409121.m3u8
 
 #EXTINF:-1, Anime Tv
 #EXTGRP:TV Ao Vivo
@@ -40,11 +36,6 @@ https://stmv1.srvif.com/animetv/animetv/chunklist_w1910877158.m3u8
 #EXTGRP:TV Ao Vivo
 #EXTIMG:https://www.cxtv.com.br/img/Tvs/Logo/webp-l/a1e4076264abe6b6ccde87a587966abe.webp
 https://stmv1.srvif.com/retrotv/retrotv/chunklist_w541623048.m3u8
-
-#EXTINF:-1, Web Tv Xtreme
-#EXTGRP:TV Ao Vivo
-#EXTIMG:https://www.cxtv.com.br/img/Tvs/Logo/webp-l/87464e2fb467b19b710aadb2da52725d.webp
-https://stmv1.srvif.com/xtremetv/xtremetv/chunklist_w1386067052.m3u8
 
 
 #EXTINF:-1, Tv Aracati HD
@@ -71,13 +62,6 @@ https://srv4.zcast.com.br/telavivatv/telavivatv/chunklist_w1019766180.m3u8
 #EXTGRP:TV Ao Vivo
 https://srv6.zcast.com.br/adriano8425/adriano8425/chunklist_w843507880.m3u8
 
-#EXTINF:-1, TV CEI
-#EXTGRP:TV Ao Vivo
-https://stmv7.samcast.com.br/eduardo6272/eduardo6272/chunklist_w1962139949.m3u8  
-
-#EXTINF:-1, Rede Mais
-#EXTGRP:TV Ao Vivo
-https://stmv1.srvif.com/redemais/redemais/chunklist_w15920272.m3u8
 
 #EXTINF:-1, Fox Kids Network
 #EXTGRP:TV Ao Vivo
