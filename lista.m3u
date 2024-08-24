@@ -104,6 +104,40 @@ https://tv01.zas.media:1936/centraltvweb/centraltvweb/chunklist_w1126685669.m3u8
 #EXTGRP:TV Ao Vivo
 https://stmv2.voxtvhd.com.br/keynni6990/keynni6990/chunklist_w1318338666.m3u8
 
+#EXTINF:-1, TV Nostalgia
+#EXTGRP:TV Ao Vivo
+https://stmv3.webtvninjas.com.br/lucas5554/lucas5554/chunklist_w1331006611.m3u8
+
+#EXTINF:-1, BS-TV 
+#EXTGRP:TV Ao Vivo
+https://video05.logicahost.com.br/gbsstudio/gbsstudio/chunklist_w1256265795.m3u8
+
+#EXTINF:-1, ISTV
+#EXTGRP:TV Ao Vivo
+https://stmv1.srvstm.com/sistema7933/sistema7933/chunklist_w1096612487.m3u8
+
+#EXTINF:-1, Web TV Campeão de Tudo
+#EXTGRP:TV Ao Vivo
+https://stmv1.paineldevideo.com.br/claudiorlp/claudiorlp/chunklist_w742221058.m3u8
+
+
+#EXTINF:-1, 1980 Channel
+#EXTGRP:TV Ao Vivo
+https://stmv6.voxtvhd.com.br/channel80s/channel80s/chunklist_w1159840614.m3u8
+
+
+#EXTINF:-1, Sonata TV
+#EXTGRP:TV Ao Vivo
+https://video01.kshost.com.br/tiago2001/tiago2001/chunklist_w804242246.m3u8
+
+#EXTINF:-1, TV 100
+#EXTGRP:TV Ao Vivo
+https://alanza.iptv2022.com/TV_100/tracks-v1a1/mono.m3u8
+
+#EXTINF:-1, Multi Canais
+#EXTGRP:TV Ao Vivo
+https://stmv4.voxtvhd.com.br/multicanais/multicanais/chunklist_w1091211901.m3u8
+
 #EXTINF:-1, GLN TV
 #EXTGRP:TV Ao Vivo
 https://stmv1.paineltv.net/glnfilmes/glnfilmes/chunklist_w1352271609.m3u8
