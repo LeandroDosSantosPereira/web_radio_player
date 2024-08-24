@@ -71,6 +71,38 @@ https://stmv1.srvif.com/emlsilva/emlsilva/chunklist_w682749848.m3u8
 #EXTGRP:TV Ao Vivo
 https://acesso.ecast.site:3070/live/awtvlive.m3u8
 
+#EXTINF:-1, Tv Channel Network
+#EXTGRP:TV Ao Vivo
+https://serv2.videovox.pw/video28392/video28392/chunklist_w1717332423.m3u8
+
+#EXTINF:-1, Tv Osório News
+#EXTGRP:TV Ao Vivo
+https://stmv1.srvstm.com/demo2573/demo2573/chunklist_w192946574.m3u8
+
+#EXTINF:-1, Animax
+#EXTGRP:TV Ao Vivo
+https://stream.ichibantv.com:3547/stream/play.m3u8
+
+#EXTINF:-1, Vintage Tv 
+#EXTGRP:TV Ao Vivo
+https://video01.kshost.com.br:4443/rogerio7271/rogerio7271/chunklist_w2108187725.m3u8
+
+
+#EXTINF:-1, Star Trek Tv 
+#EXTGRP:TV Ao Vivo
+https://stmv1.srvif.com/startrek/startrek/chunklist_w1417266760.m3u8
+
+#EXTINF:-1, Seven Tv
+#EXTGRP:TV Ao Vivo
+https://video01.kshost.com.br:4443/aubrey3291/aubrey3291/chunklist_w1685194972.m3u8
+
+#EXTINF:-1, Do Fundo do Baú
+#EXTGRP:TV Ao Vivo
+https://tv01.zas.media:1936/centraltvweb/centraltvweb/chunklist_w1126685669.m3u8
+
+#EXTINF:-1, Caravana Play
+#EXTGRP:TV Ao Vivo
+https://stmv2.voxtvhd.com.br/keynni6990/keynni6990/chunklist_w1318338666.m3u8
 
 #EXTINF:-1, GLN TV
 #EXTGRP:TV Ao Vivo
