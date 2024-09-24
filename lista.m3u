@@ -83,6 +83,9 @@ https://stmv1.srvif.com/redemais/redemais/chunklist_w15920272.m3u8
 #EXTGRP:TV Ao Vivo
 https://stmv1.srvif.com/emlsilva/emlsilva/chunklist_w682749848.m3u8
 
+#EXTINF:-1, Play TV
+#EXTGRP:TV Ao Vivo
+https://isaocorp.cloudecast.com/playtv/tracks-v1/index.fmp4.m3u8
 
 #EXTINF:-1, GLN TV
 #EXTGRP:TV Ao Vivo
