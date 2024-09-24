@@ -67,76 +67,9 @@ https://srv6.zcast.com.br/adriano8425/adriano8425/chunklist_w843507880.m3u8
 #EXTGRP:TV Ao Vivo
 https://stmv1.srvif.com/emlsilva/emlsilva/chunklist_w682749848.m3u8
 
-#EXTINF:-1, AWTV
+#EXTINF:-1, Play TV
 #EXTGRP:TV Ao Vivo
-https://acesso.ecast.site:3070/live/awtvlive.m3u8
-
-#EXTINF:-1, Tv Channel Network
-#EXTGRP:TV Ao Vivo
-https://serv2.videovox.pw/video28392/video28392/chunklist_w1717332423.m3u8
-
-#EXTINF:-1, Tv Osório News
-#EXTGRP:TV Ao Vivo
-https://stmv1.srvstm.com/demo2573/demo2573/chunklist_w192946574.m3u8
-
-#EXTINF:-1, Animax
-#EXTGRP:TV Ao Vivo
-https://stream.ichibantv.com:3547/stream/play.m3u8
-
-#EXTINF:-1, Vintage Tv 
-#EXTGRP:TV Ao Vivo
-https://video01.kshost.com.br:4443/rogerio7271/rogerio7271/chunklist_w2108187725.m3u8
-
-
-#EXTINF:-1, Star Trek Tv 
-#EXTGRP:TV Ao Vivo
-https://stmv1.srvif.com/startrek/startrek/chunklist_w1417266760.m3u8
-
-#EXTINF:-1, Seven Tv
-#EXTGRP:TV Ao Vivo
-https://video01.kshost.com.br:4443/aubrey3291/aubrey3291/chunklist_w1685194972.m3u8
-
-#EXTINF:-1, Do Fundo do Baú
-#EXTGRP:TV Ao Vivo
-https://tv01.zas.media:1936/centraltvweb/centraltvweb/chunklist_w1126685669.m3u8
-
-#EXTINF:-1, Caravana Play
-#EXTGRP:TV Ao Vivo
-https://stmv2.voxtvhd.com.br/keynni6990/keynni6990/chunklist_w1318338666.m3u8
-
-#EXTINF:-1, TV Nostalgia
-#EXTGRP:TV Ao Vivo
-https://stmv3.webtvninjas.com.br/lucas5554/lucas5554/chunklist_w1331006611.m3u8
-
-#EXTINF:-1, BS-TV 
-#EXTGRP:TV Ao Vivo
-https://video05.logicahost.com.br/gbsstudio/gbsstudio/chunklist_w1256265795.m3u8
-
-#EXTINF:-1, ISTV
-#EXTGRP:TV Ao Vivo
-https://stmv1.srvstm.com/sistema7933/sistema7933/chunklist_w1096612487.m3u8
-
-#EXTINF:-1, Web TV Campeão de Tudo
-#EXTGRP:TV Ao Vivo
-https://stmv1.paineldevideo.com.br/claudiorlp/claudiorlp/chunklist_w742221058.m3u8
-
-
-#EXTINF:-1, 1980 Channel
-#EXTGRP:TV Ao Vivo
-https://stmv6.voxtvhd.com.br/channel80s/channel80s/chunklist_w1159840614.m3u8
-
-
-#EXTINF:-1, Sonata TV
-#EXTGRP:TV Ao Vivo
-https://video01.kshost.com.br/tiago2001/tiago2001/chunklist_w804242246.m3u8
-
-#EXTINF:-1, TV 100
-#EXTGRP:TV Ao Vivo
-https://alanza.iptv2022.com/TV_100/tracks-v1a1/mono.m3u8
-
-#EXTINF:-1, Multi Canais
-#EXTGRP:TV Ao Vivo
-https://stmv4.voxtvhd.com.br/multicanais/multicanais/chunklist_w1091211901.m3u8
+https://isaocorp.cloudecast.com/playtv/tracks-v1/index.fmp4.m3u8
 
 #EXTINF:-1, GLN TV
 #EXTGRP:TV Ao Vivo
