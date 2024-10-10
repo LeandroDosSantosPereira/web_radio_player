@@ -18,6 +18,7 @@
             border: 1px solid white;
             padding: 20px;
             border-radius: 10px;
+            position: relative; /* Torna o container relativo para posicionar a mensagem */
         }
         #info {
             margin-bottom: 20px;
@@ -53,14 +54,29 @@
             margin: 0 20px;
             cursor: pointer;
             padding: 10px;
+            width: 60px; /* Largura fixa para garantir proporção */
+            height: 60px; /* Altura fixa para garantir proporção */
+            border-radius: 50%; /* Deixa os botões redondos */
         }
         .controls button:hover {
             color: lightgray;
         }
+        #loading-message {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            font-size: 14px;
+            background-color: #333;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 5px;
+            display: none; /* Começa invisível */
+        }
         @media (max-width: 600px) {
             .controls button {
-                font-size: 24px;
-                margin: 0 10px;
+                font-size: 28px; /* Ajusta o tamanho da fonte para celular */
+                width: 50px; /* Botões um pouco menores, mas ainda clicáveis */
+                height: 50px;
             }
         }
     </style>
@@ -74,6 +90,7 @@
         <span id="radio-location"></span>
     </div>
     <div id="time">00:00 AM</div>
+    <div id="loading-message">Conectando à rádio...</div> <!-- Mensagem de conexão -->
     <div class="controls">
         <button id="prev">◄</button>
         <button id="play-pause">▶</button>

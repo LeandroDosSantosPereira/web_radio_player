@@ -258,6 +258,7 @@ var musicas = [
 
 ];
 
+
 // Seleciona os elementos da página
 var audioPlayer = document.getElementById('audio-player');
 var radioTitle = document.getElementById('radio-title');
@@ -265,6 +266,7 @@ var radioFrequency = document.getElementById('radio-frequency');
 var radioLocation = document.getElementById('radio-location');
 var playPauseButton = document.getElementById('play-pause');
 var timeDisplay = document.getElementById('time');
+var loadingMessage = document.getElementById('loading-message'); // Mensagem de "Conectando à rádio..."
 
 // Variável para controlar o índice da rádio atual
 var currentRadioIndex = localStorage.getItem('currentRadioIndex') ? parseInt(localStorage.getItem('currentRadioIndex')) : 0;
@@ -276,6 +278,7 @@ function updateRadioInfo() {
 	radioFrequency.innerText = currentRadio.album;
 	radioLocation.innerText = currentRadio.author;
 	audioPlayer.src = currentRadio.source;
+	loadingMessage.style.display = 'block'; // Mostra a mensagem de conexão ao mudar a rádio
 }
 
 // Função para formatação de tempo AM/PM
@@ -295,7 +298,22 @@ audioPlayer.addEventListener('error', function () {
 	setTimeout(function () {
 		audioPlayer.load();
 		audioPlayer.play();
-	}, 5000); // tenta reconectar após 5 segundos
+	}, 10000); // Aumenta o tempo para tentar reconectar após 10 segundos
+});
+
+// Previne que o áudio entre em looping ou buffers repetidos
+audioPlayer.addEventListener('stalled', function () {
+	console.log("Stalled, tentando reconectar...");
+	audioPlayer.pause();
+	setTimeout(function () {
+		audioPlayer.load();
+		audioPlayer.play();
+	}, 5000);
+});
+
+// Oculta a mensagem de conexão quando o áudio estiver pronto para tocar
+audioPlayer.addEventListener('canplay', function () {
+	loadingMessage.style.display = 'none'; // Esconde a mensagem "Conectando à rádio..."
 });
 
 // Função para reproduzir ou pausar
