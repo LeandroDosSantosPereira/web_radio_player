@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Player de Rádio</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding: 20px;
+        }
+        #player-container {
+            margin: 50px auto;
+            max-width: 90%;
+            border: 1px solid white;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        #info {
+            margin-bottom: 20px;
+            text-align: left; /* Alinha as informações à esquerda */
+            font-size: 18px;
+        }
+        #radio-title {
+            font-size: 24px; /* Maior importância */
+            font-weight: bold;
+        }
+        #radio-frequency {
+            font-size: 20px; /* Tamanho intermediário */
+            margin-top: 10px;
+        }
+        #radio-location {
+            font-size: 16px; /* Menor importância */
+            margin-top: 5px;
+        }
+        #time {
+            font-size: 48px;
+        }
+        .controls {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            margin-top: 20px;
+        }
+        .controls button {
+            background-color: transparent;
+            border: none;
+            color: white;
+            font-size: 36px;
+            margin: 0 20px;
+            cursor: pointer;
+            padding: 10px;
+        }
+        .controls button:hover {
+            color: lightgray;
+        }
+        @media (max-width: 600px) {
+            .controls button {
+                font-size: 24px;
+                margin: 0 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div id="player-container">
+    <div id="info">
+        Tocando: <span id="radio-title"></span> <br>
+        <span id="radio-frequency"></span> <br>
+        <span id="radio-location"></span>
+    </div>
+    <div id="time">00:00 AM</div>
+    <div class="controls">
+        <button id="prev">◄</button>
+        <button id="play-pause">▶</button>
+        <button id="next">►</button>
+    </div>
+</div>
+
+<audio id="audio-player"></audio>
+
+<script src="script.js"></script>
+</body>
+</html>

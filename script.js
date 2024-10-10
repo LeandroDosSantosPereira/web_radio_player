@@ -258,3 +258,91 @@ var musicas = [
 
 ];
 
+// Seleciona os elementos da página
+var audioPlayer = document.getElementById('audio-player');
+var radioTitle = document.getElementById('radio-title');
+var radioFrequency = document.getElementById('radio-frequency');
+var radioLocation = document.getElementById('radio-location');
+var playPauseButton = document.getElementById('play-pause');
+var timeDisplay = document.getElementById('time');
+
+// Variável para controlar o índice da rádio atual
+var currentRadioIndex = localStorage.getItem('currentRadioIndex') ? parseInt(localStorage.getItem('currentRadioIndex')) : 0;
+
+// Atualiza as informações da rádio na tela
+function updateRadioInfo() {
+	var currentRadio = musicas[currentRadioIndex];
+	radioTitle.innerText = currentRadio.title;
+	radioFrequency.innerText = currentRadio.album;
+	radioLocation.innerText = currentRadio.author;
+	audioPlayer.src = currentRadio.source;
+}
+
+// Função para formatação de tempo AM/PM
+function formatAMPM(date) {
+	var hours = date.getHours();
+	var minutes = date.getMinutes();
+	var ampm = hours >= 12 ? 'PM' : 'AM';
+	hours = hours % 12;
+	hours = hours ? hours : 12; // O relógio de 12 horas não tem "00" horas
+	minutes = minutes < 10 ? '0' + minutes : minutes;
+	var strTime = hours + ':' + minutes + ' ' + ampm;
+	return strTime;
+}
+
+// Função de reconexão automática caso o áudio pare
+audioPlayer.addEventListener('error', function () {
+	setTimeout(function () {
+		audioPlayer.load();
+		audioPlayer.play();
+	}, 5000); // tenta reconectar após 5 segundos
+});
+
+// Função para reproduzir ou pausar
+function togglePlayPause() {
+	if (audioPlayer.paused) {
+		audioPlayer.play().catch(function (error) {
+			console.log('Erro ao tentar tocar o áudio: ', error);
+		});
+		playPauseButton.innerText = '⏸';
+		document.getElementById('info').style.display = 'block';
+		timeDisplay.style.display = 'none';
+	} else {
+		audioPlayer.pause();
+		playPauseButton.innerText = '▶';
+		timeDisplay.innerText = formatAMPM(new Date());
+		document.getElementById('info').style.display = 'none';
+		timeDisplay.style.display = 'block';
+	}
+}
+
+// Funções para navegar pelas rádios
+function nextRadio() {
+	currentRadioIndex = (currentRadioIndex + 1) % musicas.length;
+	localStorage.setItem('currentRadioIndex', currentRadioIndex);
+	updateRadioInfo();
+	audioPlayer.play();
+}
+
+function prevRadio() {
+	currentRadioIndex = (currentRadioIndex - 1 + musicas.length) % musicas.length;
+	localStorage.setItem('currentRadioIndex', currentRadioIndex);
+	updateRadioInfo();
+	audioPlayer.play();
+}
+
+// Eventos de controle
+playPauseButton.addEventListener('click', function () {
+	togglePlayPause();
+	// Salva estado de interação para prevenir erro de autoplay
+	localStorage.setItem('userInteracted', true);
+});
+
+document.getElementById('next').addEventListener('click', nextRadio);
+document.getElementById('prev').addEventListener('click', prevRadio);
+
+// Inicializa o player
+if (localStorage.getItem('userInteracted')) {
+	updateRadioInfo();
+	audioPlayer.play();
+}
