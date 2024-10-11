@@ -140,7 +140,7 @@ https://stmv4.voxtvhd.com.br/multicanais/multicanais/chunklist_w1091211901.m3u8
 
 #EXTINF:-1, Play TV
 #EXTGRP:TV Ao Vivo
-https://isaocorp.cloudecast.com/playtv/tracks-v1/index.fmp4.m3u8
+https://isaocorp.cloudecast.com/playtv/index.fmp4.m3u8
 
 #EXTINF:-1, GLN TV
 #EXTGRP:TV Ao Vivo
