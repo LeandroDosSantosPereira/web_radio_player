@@ -13,7 +13,7 @@ https://stmv8.samcast.com.br/redeclonetv/redeclonetv/playlist.m3u8
 #EXTINF:-1, Tv Loading
 #EXTGRP:TV Ao Vivo
 #EXTIMG:https://www.cxtv.com.br/img/Tvs/Logo/webp-l/1d08352f33c92124373d9f3b0fcf2ef8.webp
-https://stmv1.srvif.com/loadingtv/loadingtv/chunklist_w921572973.m3u8
+https://stmv1.srvif.com/loadingtv/loadingtv/playlist.m3u8?hls_ctx=13ek2666
 
 #EXTINF:-1, Web Tv Cine
 #EXTGRP:TV Ao Vivo
