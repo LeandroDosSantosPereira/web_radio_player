@@ -8,12 +8,13 @@ https://stmv1.srvif.com/canal29/canal29/chunklist_w1080266203.m3u8
 #EXTINF:-1, REDE CLOUDING TV
 #EXTGRP:TV Ao Vivo
 #EXTIMG:https://str.paineladm.com/arquivos/7030/cabecalho-7030-20241226083747.png
-https://stmv1.paineltv.net/redeclonetv/redeclonetv/chunklist.m3u8
+https://stmv8.samcast.com.br/redeclonetv/redeclonetv/playlist.m3u8
+
 
 #EXTINF:-1, Tv Loading
 #EXTGRP:TV Ao Vivo
 #EXTIMG:https://www.cxtv.com.br/img/Tvs/Logo/webp-l/1d08352f33c92124373d9f3b0fcf2ef8.webp
-https://stmv8.samcast.com.br/redeclonetv/redeclonetv/chunklist_w478278981.m3u8
+https://stmv1.srvif.com/loadingtv/loadingtv/chunklist_w921572973.m3u8
 
 #EXTINF:-1, Web Tv Cine
 #EXTGRP:TV Ao Vivo
